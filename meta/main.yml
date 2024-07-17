@@ -1,10 +1,14 @@
 ---
 galaxy_info:
   author: Dennis Witt
-  description: your role description
+  description: Role to pause. Intended to use pause between roles
   namespace: wittdennis
-  role_name: template_role
+  role_name: pause
   license: MIT
+  platforms:
+    - name: GenericLinux
+      versions:
+        - all
 
   min_ansible_version: "2.1"
 

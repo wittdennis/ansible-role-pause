@@ -1,2 +1,4 @@
 ---
-# tasks file for role_remplate
+- name: Pause
+  ansible.builtin.pause:
+    seconds: "{{ pause_seconds }}"
